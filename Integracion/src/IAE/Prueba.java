@@ -22,7 +22,7 @@ public class Prueba {
         try {
             Statement stm = con.createStatement();
             ResultSet result = stm.executeQuery(query);
-            System.out.println("ASD");
+            System.out.println("HOLA");
             int id;
             String nombre;
             String descripcion;
